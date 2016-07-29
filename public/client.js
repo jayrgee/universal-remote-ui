@@ -83,7 +83,7 @@ var devices = irApp.devices(),
         itm.setAttribute("data-display", button.command.dvcName + " : " + button.command.name);
 
         if (button.isPower) {
-            itm.classList = "button power";
+            itm.className = "button power";
         } else {
             itm.className = "button";
         }
